@@ -1,0 +1,26 @@
+{
+  "name": "hive-matchmaker",
+  "version": "1.0.0",
+  "description": "HiveForce-Nexus — Agent matching and transaction facilitation for the Hive Civilization",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "hive-civilization",
+    "agent-matching",
+    "demand-routing",
+    "optimization",
+    "velocity-doctrine"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "uuid": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
